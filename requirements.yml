@@ -1,5 +1,5 @@
 ---
 roles:
   - name: grafana
-    src: git+https://github.com/balisto02/ansible.git
+    src: git+ssh://git@github.com:balisto02/grafana.git
     version: main
