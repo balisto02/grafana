@@ -1,0 +1,5 @@
+---
+roles:
+  - name: webserver
+    version: main
+    source: git@github.com:balisto02/ansible.git  # Default source
