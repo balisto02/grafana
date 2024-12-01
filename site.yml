@@ -1,5 +1,8 @@
 ---
 - name: Apply roles to servers
   hosts: all
+  become: true
+  become_user: root
+  remote_user: tom
   roles:
     - grafana
