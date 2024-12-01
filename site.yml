@@ -2,4 +2,4 @@
 - name: Apply roles to servers
   hosts: all
   roles:
-    - webserver
+    - grafana
